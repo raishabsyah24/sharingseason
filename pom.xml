@@ -17,9 +17,10 @@
     </parent>
 
     <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <npm.output.directory>build</npm.output.directory>
-    </properties>
+       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+       <java.version>20</java.version>
+       <maven.compiler.release>${java.version}</maven.compiler.release>
+   </properties>
 
     <build>
         <finalName>${project.artifactId}</finalName>
